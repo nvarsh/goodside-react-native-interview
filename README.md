@@ -29,8 +29,8 @@ Additional Info:
     1. Ensure solution uses separate navigators
 2. The login page
     1. Inputs should be an email address and password
-    2. A “Login” button that will push the user
-    3. A “Remember Me” functionality that will pre-populate email & password (but still requires user to click “Login”)
+    2. A “Login” button that will push the user to the home screen
+    3. A “Remember Me” functionality that will pre-populate email & password (but still requires user to click “Login”), so the next time I open the app the fields are filled.
     4. For the sake of time, lets assume all users who log in with arbitrary credentials are existing users
 3. Sign up page
     1. Email must be valid (has only one @, does not contain symbols)
@@ -39,7 +39,7 @@ Additional Info:
         2. Only letters, numbers, and special symbol: +, !, /
         3. Contains at least one number
         4. Contains at least one special symbol
-        5. Should tell the user that the password does not conform
+        5. Should tell the user that the password does not conform, and tell me which requirement is missing. For example, if I enter "Test", I should be notified via an error message that I need at least one number and special symbol.
         6. Password requirements should be clearly stated before the user begins to sign up
     3. For the sake of time, lets assume no further checks are required and a user gets pushed to the Home Screen upon successful/valid inputs
 4. The Home Screen
@@ -54,3 +54,5 @@ Additional Info:
 Bonus:
 - Tests for the sign up inputs
 - Making it look nice
+- Using separate navigators to handle auth
+- Sticking to pure React Native and using the least amount of libraries as possible
