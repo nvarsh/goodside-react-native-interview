@@ -4,6 +4,10 @@
 
 Try `yarn ios` or `npm run ios` first, if that doesn't work, run `npm start`, and then build & run the app through Xcode.
 
+## Submission
+
+Once you finish the steps, PR into this repo and email me `nikunj.varshney@rbc.com` letting me know that you have completed your PR.
+
 ## Welcome to the Goodside React Native Interview!
 
 Duration: 1-2 hours max
