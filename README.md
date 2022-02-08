@@ -1,6 +1,10 @@
 # Goodside React Native Interview
 
-Welcome to the Goodside React Native Interview!
+## To run the app
+
+Try `yarn ios` or `npm run ios` first, if that doesn't work, run `npm start`, and then build & run the app through Xcode.
+
+## Welcome to the Goodside React Native Interview!
 
 Duration: 1-2 hours max
 
