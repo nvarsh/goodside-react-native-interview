@@ -82,7 +82,7 @@ const SignUpScreen = ({navigation}: any) => {
                         value={password}
                         onChangeText={setPassword}
                         style={styles.input}
-                        // secureTextEntry={true}
+                        secureTextEntry={true}
                     />
                     <CustomButton 
                         text={'Sign Up'}
